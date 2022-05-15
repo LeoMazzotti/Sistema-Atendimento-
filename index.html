@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css" />
+    <title>Consultório Odontológico</title>
+  </head>
+  <body>
+    <img
+      src="https://img.freepik.com/vetores-gratis/vetor-de-mulher-dentista_42515-318.jpg?size=338&ext=jpg"
+      alt=""
+    />
+    <div>
+      <h1>Consultório Odontológico:</h1>
+      <p>
+        Paciente:
+        <input type="text" id="inPaciente" />
+        <button onclick="adicionar()">Adicionar</button>
+        <button onclick="urgencia()">Urgência</button>
+        <button onclick="atender()">Atender</button>
+      </p>
+
+      <h3>Em atendimento: <span id="emAtendimento"></span></h3>
+      <p id="outAgenda"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
