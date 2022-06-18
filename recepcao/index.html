@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Charis+SIL&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Consultório Odontológico</title>
+  </head>
+  <body>
+    <div class="pagina">
+      <div class="imagem">
+        <img
+          src="https://img.freepik.com/vetores-gratis/vetor-de-mulher-dentista_42515-318.jpg?size=338&ext=jpg"
+          alt=""
+        />
+      </div>
+      <div class="atendimento">
+        <h1>Consultório Odontológico:</h1>
+        <p class="atendimento">
+          Paciente:
+          <input type="text" id="inPaciente" />
+          <button onclick="adicionar()">Adicionar</button>
+          <button onclick="urgencia()">Urgência</button>
+          <button onclick="atender()">Atender</button>
+        </p>
+
+        <h3>Em atendimento: <span id="emAtendimento"></span></h3>
+        <p id="outAgenda"></p>
+     
+
+      <footer class="contato">
+        <ul>
+          <li>Contato:</li>
+          <li></li>
+          <li>Telefone: (21) 98788-XXXX</li>
+          <li>Email: atendimentoclinica@gmail.com</li>
+          <li>
+            Sobre nós: Somos uma empresa especializada em odontologia,
+            <br> atuando
+            com excelência no mercado há mais 10 anos.
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
